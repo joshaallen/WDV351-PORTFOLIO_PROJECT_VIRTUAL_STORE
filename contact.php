@@ -36,7 +36,7 @@ $validFlag = false;
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=ISO-8859-1" . "\r\n";
     $headers .= 'From: <joshuaa2003@joshuaallen.info>' . "\r\n";
-   /*  mail($mailTo,$subject,$message,$headers); */
+   mail($mailTo,$subject,$message,$headers); 
     $validFlag = true;
 
     //checking reCAPTCHA response is successful before sending email
